@@ -4,17 +4,16 @@
 
 - we need to install FFmpeg, and ImageMagick to create GIFs
 
-        ```
-        $ sudo apt-get install ffmpeg imagemagick
-        ```
+ ```
+ $ sudo apt-get install ffmpeg imagemagick
+ ```
         
 - convert two video files into GIF format using FFmpeg
         
-        ```
-        $ ffmpeg -ss 00:00:20 -i sample.mp4 -to 10 -r 10 -vf scale=200:-1 cutekid_cry.gif
-        ```
-  here:
-          
+```
+$ ffmpeg -ss 00:00:20 -i sample.mp4 -to 10 -r 10 -vf scale=200:-1 cutekid_cry.gif
+```
+  here:        
      - **-ss** : indicates the starting point of GIF
      - **-i** : input file
      - **sample.mp4** : My video file name
