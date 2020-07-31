@@ -17,7 +17,7 @@ here:
    - **sample.mp4** : My video file name
    - **-to** : End position of the GIF file
    - **-r** : frame rate. You can increase the value to get more quality GIF file
-   - **-vf** : filter graph. To scale the GIF image in the desired s**ize.
+   - **-vf** : filter graph. To scale the GIF image in the desired size.
 
 ### Combine multiple GIFs into one
 ```
