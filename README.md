@@ -13,15 +13,14 @@
         ```
         $ ffmpeg -ss 00:00:20 -i sample.mp4 -to 10 -r 10 -vf scale=200:-1 cutekid_cry.gif
         ```
-        
-        here:
+  here:
           
-          - **-ss** : indicates the starting point of GIF
-          - **-i** : input file
-          - **sample.mp4** : My video file name
-          - **-to** : End position of the GIF file
-          - **-r** : frame rate. You can increase the value to get more quality GIF file
-          - **-vf** : filter graph. To scale the GIF image in the desired s**ize.
+     - **-ss** : indicates the starting point of GIF
+     - **-i** : input file
+     - **sample.mp4** : My video file name
+     - **-to** : End position of the GIF file
+     - **-r** : frame rate. You can increase the value to get more quality GIF file
+     - **-vf** : filter graph. To scale the GIF image in the desired s**ize.
 
 ### Combine multiple GIFs into one
 
